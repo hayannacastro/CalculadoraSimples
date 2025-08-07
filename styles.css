@@ -1,0 +1,135 @@
+#visor{
+    width: 296px;
+    border-bottom: 2px #6f6f6f;
+    border-bottom-color: aqua;
+    background-color: rgb(164, 118, 224);
+}
+
+body{
+    background-color: aquamarine;
+}
+
+table{
+    margin: auto;
+    background-color: rgb(8, 216, 188);
+    width: 295px;
+    height: 325px;
+    max-width: 295px;
+    text-align: center;
+    border-radius: 4px;
+    padding-right: 10px;
+    border-color: rgb(21, 151, 151);
+}
+
+input{
+    font-weight: bold;
+    outline: 0;
+    position: relative;
+    left: 5px;
+    top: 5px;
+    border: 0;
+    color: rgb(241, 7, 171);
+    background-color: aliceblue;
+    border-radius: 4px;
+    width: 60px;
+    height: 50px;
+    float: left;
+    margin: 5px;
+    font-size: 20px;
+    box-shadow: 0 4px rgb(164, 118, 224);
+    margin-bottom: 15px;
+}
+
+input:hover{
+    border: 0 solid;
+    color: rgb(41, 40, 40);
+    background-color: #fff;
+    border-radius: 4px;
+    width: 60px;
+    height: 50px;
+    float: left;
+    margin: 5px;
+    font-size: 20px;
+    box-shadow: 0 4px #b0d2cf;
+}
+
+#input:active{
+    top:4px;
+    border: 0 solid coral;
+    color:darkcyan;
+    background-color: #fff;
+    border-radius: 4px;
+    width: 60px;
+    height: 50px;
+    float: left;
+    margin: 5px;
+    font-size: 20px;
+    box-shadow: none;
+}
+
+#display{
+    width: 265px;
+    max-width: 270;
+    font-size: 50px;
+    text-align: right;
+    background-color: antiquewhite;
+    float: right;
+}
+
+#display:hover{
+    width: 270px;
+    font-size: 26px;
+    text-align: right;
+    background-color: bisque;
+    box-shadow: 0 4px chocolate;
+}
+
+#display:active{
+    top: 5px;
+    width: 270px;
+    font-size: 26px;
+    text-align: right;
+    background-color: brown;
+    box-shadow: 0 4px cornflowerblue;
+}
+
+.operador{
+    background-color: #abe8eb;
+    position: relative;
+}
+
+.operador:hover{
+    background-color: #fff;
+    box-shadow: none;
+}
+
+#limpar{
+    float: left;
+    position: relative;
+    display: block;
+    background-color: rgb(164, 118, 224);
+}
+
+#limpar:hover{
+    float: left;
+    top: 10px;
+    display: block;
+    background-color: #4570a7;
+    margin-bottom: 15px;
+    box-shadow: #3d4988;
+}
+
+#limpar:active{
+    float: left;
+    top: 4px;
+    display: block;
+    background-color: #4d4c99;
+    margin-bottom: 15px;
+    box-shadow: none;
+}
+
+h3{
+    text-align: center;
+    color: white;
+    font-size: 50px;
+}
